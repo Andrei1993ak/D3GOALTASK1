@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="calculator_radio_button_height">40dp</dimen>
+    <dimen name="calculator_check_box_height">40dp</dimen>
+</resources>

@@ -1,3 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Task1</string>
+    <string name="app_name">Calculator</string>
+
+    <string name="FLOAT_VALUES">Use float numbers</string>
+    <string name="SIGNED_VALUES">Use signed numbers</string>
+
+    <string name="FIELD_1_HINT">Number 1</string>
+    <string name="FIELD_2_HINT">Number 2</string>
+
+    <string name="OPERATION_PLUS">Plus</string>
+    <string name="OPERATION_MINUS">Minus</string>
+    <string name="OPERATION_DIVIDE">Divide</string>
+    <string name="OPERATION_MULTIPLE">Multiple</string>
+
+    <string name="RESULT_FIELD">Result</string>
+    <string name="CALCULATE_BUTTON">Calculate</string>
+    <string name="OPERATION_NOT_FOUND_MESSAGE">Please, choose an operation</string>
+
+    <string name="MENU_ITEM_CLEAR">Clear inputs</string>
 </resources>

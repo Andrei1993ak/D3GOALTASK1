@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Калькулятор</string>
+
+    <string name="FLOAT_VALUES">Использовать дробные числа</string>
+    <string name="SIGNED_VALUES">Использовать знаковые числа</string>
+
+    <string name="FIELD_1_HINT">Число 1</string>
+    <string name="FIELD_2_HINT">Число 2</string>
+
+    <string name="OPERATION_PLUS">Плюс</string>
+    <string name="OPERATION_MINUS">Минус</string>
+    <string name="OPERATION_DIVIDE">Делить</string>
+    <string name="OPERATION_MULTIPLE">Умножить</string>
+
+    <string name="RESULT_FIELD">Результат</string>
+    <string name="CALCULATE_BUTTON">Вычислить</string>
+    <string name="OPERATION_NOT_FOUND_MESSAGE">Выберите выполняемую операцию</string>
+
+    <string name="MENU_ITEM_CLEAR">Очистить поля ввода</string>
+</resources>
