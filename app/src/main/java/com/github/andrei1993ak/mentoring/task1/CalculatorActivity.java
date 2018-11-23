@@ -69,8 +69,8 @@ public class CalculatorActivity extends AppCompatActivity {
             operation.setChecked(false);
         }
 
-        mCheckBoxFloatValues.setSelected(true);
-        mCheckBoxSignedValues.setSelected(true);
+        mCheckBoxFloatValues.setChecked(true);
+        mCheckBoxSignedValues.setChecked(true);
     }
 
     private void setInputFieldsInputType(final boolean pUseFloats, final boolean pUseSigned) {
