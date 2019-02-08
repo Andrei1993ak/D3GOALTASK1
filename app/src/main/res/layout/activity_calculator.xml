@@ -5,10 +5,10 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="10dp"
-    tools:context=".CalculatorActivity">
+    tools:context=".calc.CalcActivity">
 
     <EditText
-        android:id="@+id/edit_text_field1"
+        android:id="@+id/editTextField1"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -18,7 +18,7 @@
         tools:text="@string/FIELD_1_HINT" />
 
     <EditText
-        android:id="@+id/edit_text_field2"
+        android:id="@+id/editTextField2"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -28,7 +28,7 @@
         tools:text="@string/FIELD_2_HINT" />
 
     <RadioButton
-        android:id="@+id/radio_button_plus"
+        android:id="@+id/radioButtonPlus"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -36,7 +36,7 @@
         tools:text="@string/OPERATION_PLUS" />
 
     <RadioButton
-        android:id="@+id/radio_button_minus"
+        android:id="@+id/radioButtonMinus"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -44,7 +44,7 @@
         tools:text="@string/OPERATION_MINUS" />
 
     <RadioButton
-        android:id="@+id/radio_button_divide"
+        android:id="@+id/radioButtonDivide"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -52,7 +52,7 @@
         tools:text="@string/OPERATION_DIVIDE" />
 
     <RadioButton
-        android:id="@+id/radio_button_multiply"
+        android:id="@+id/radioButtonMultiply"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -60,7 +60,7 @@
         tools:text="@string/OPERATION_MULTIPLE" />
 
     <CheckBox
-        android:id="@+id/checkbox_float_values"
+        android:id="@+id/checkboxFloatValues"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -68,7 +68,7 @@
         android:text="@string/FLOAT_VALUES" />
 
     <CheckBox
-        android:id="@+id/checkbox_signed_values"
+        android:id="@+id/checkboxSignedValues"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -76,7 +76,7 @@
         android:text="@string/SIGNED_VALUES" />
 
     <TextView
-        android:id="@+id/text_view_result"
+        android:id="@+id/textViewResult"
         style="@android:style/Widget.EditText"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -84,7 +84,7 @@
         android:hint="@string/RESULT_FIELD" />
 
     <Button
-        android:id="@+id/button_get_result"
+        android:id="@+id/buttonGetResult"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
